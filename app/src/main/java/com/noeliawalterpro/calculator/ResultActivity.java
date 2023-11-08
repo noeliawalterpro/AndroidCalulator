@@ -28,6 +28,9 @@ public class ResultActivity extends AppCompatActivity {
             case "ADD":
                 int sum = nro1 +nro2;
                 Result.setText( nro1+"+"+nro2+"="+ sum);
+            case "SUBTRACT":
+                int sub = nro1 -nro2;
+                Result.setText( nro1+"-"+nro2+"="+ sub);
 
         }
 
