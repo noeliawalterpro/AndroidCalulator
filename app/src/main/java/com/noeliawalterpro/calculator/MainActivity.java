@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         textInput2 = findViewById(R.id.textInput2);
         calculatorActions =findViewById(R.id.calculatorActions);
 
-        String[] Actions = {"ADD", "DIVISION", "MULTIPLY", "SUBTRACT"};
+        String[] Actions = {"ADD", "DIVISION", "MULTIPLY", "SUBTRACT", "PERCENTAGE"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, Actions);
         calculatorActions.setAdapter(adapter);
 

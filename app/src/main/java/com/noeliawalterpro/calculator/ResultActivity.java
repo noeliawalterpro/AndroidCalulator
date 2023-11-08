@@ -37,6 +37,9 @@ public class ResultActivity extends AppCompatActivity {
             case "DIVISION":
                 int division = nro1 / nro2;
                 Result.setText( nro1+" / "+nro2+"="+ division);
+            case "PERCENTAGE":
+                int percent = nro1 * nro2/100;
+                Result.setText( "%"+nro2+" of "+nro1+"="+ percent);
 
         }
 
