@@ -34,6 +34,9 @@ public class ResultActivity extends AppCompatActivity {
             case "MULTIPLY":
                 int multiply = nro1 * nro2;
                 Result.setText( nro1+" x "+nro2+"="+ multiply);
+            case "DIVISION":
+                int division = nro1 / nro2;
+                Result.setText( nro1+" / "+nro2+"="+ division);
 
         }
 
