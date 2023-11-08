@@ -6,4 +6,6 @@
     <string name="btn_calculate">Calculate</string>
     <string name="btn_back">Return</string>
     <string name="Result">Result</string>
+    <string name="version">1.2.0</string>
+    <string name="logo">Calculator logo</string>
 </resources>
