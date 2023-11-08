@@ -41,12 +41,12 @@
         app:lottie_autoPlay="true"
         app:lottie_fileName="correct.json"
         app:lottie_imageAssetsFolder="assets"
-        app:lottie_loop="true">
+     >
 
     </com.airbnb.lottie.LottieAnimationView>
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animationIncorrect"
+        android:id="@+id/animationCalculator"
         android:layout_width="150sp"
         android:layout_height="150sp"
         android:visibility="invisible"
