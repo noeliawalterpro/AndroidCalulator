@@ -33,14 +33,12 @@
         android:id="@+id/animationCorrect"
         android:layout_width="150sp"
         android:layout_height="150sp"
-        android:layout_marginTop="92dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_return"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/result"
-        app:layout_constraintVertical_bias="0.0"
-        app:lottie_autoPlay="false"
+        app:layout_constraintTop_toBottomOf="@+id/text_result"
+        app:lottie_autoPlay="true"
         app:lottie_fileName="correct.json"
         app:lottie_imageAssetsFolder="assets"
         app:lottie_loop="true">
@@ -51,16 +49,15 @@
         android:id="@+id/animationIncorrect"
         android:layout_width="150sp"
         android:layout_height="150sp"
-        android:layout_marginTop="12dp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/btn_return"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/result"
-        app:lottie_autoPlay="false"
+        app:layout_constraintTop_toBottomOf="@+id/text_result"
         app:lottie_fileName="incorrect.json"
         app:lottie_imageAssetsFolder="assets"
-        app:lottie_loop="true">
+        tools:visibility="invisible">
 
     </com.airbnb.lottie.LottieAnimationView>
 </androidx.constraintlayout.widget.ConstraintLayout>
