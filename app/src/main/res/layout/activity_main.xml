@@ -22,7 +22,7 @@
         android:id="@+id/btn_calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:onClick="showResult"
         android:layout_marginBottom="140dp"
         android:text="@string/btn_calculate"
         app:layout_constraintBottom_toBottomOf="parent"
