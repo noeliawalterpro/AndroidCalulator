@@ -26,11 +26,14 @@ public class ResultActivity extends AppCompatActivity {
 
         switch(action) {
             case "ADD":
-                int sum = nro1 +nro2;
-                Result.setText( nro1+"+"+nro2+"="+ sum);
+                int sum = nro1 + nro2;
+                Result.setText( nro1+" + "+nro2+"="+ sum);
             case "SUBTRACT":
-                int sub = nro1 -nro2;
-                Result.setText( nro1+"-"+nro2+"="+ sub);
+                int sub = nro1 - nro2;
+                Result.setText( nro1+" - "+nro2+"="+ sub);
+            case "MULTIPLY":
+                int multiply = nro1 * nro2;
+                Result.setText( nro1+" x "+nro2+"="+ multiply);
 
         }
 
