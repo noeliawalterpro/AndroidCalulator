@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="value_a">Valor A</string>
-    <string name="value_b">Valor B</string>
+    <string name="value_a">Value a</string>
+    <string name="value_b">Value b</string>
+    <string name="hint">Select an Operation</string>
     <string name="btn_calculate">Calculate</string>
     <string name="btn_back">Return</string>
     <string name="Result">Result</string>
