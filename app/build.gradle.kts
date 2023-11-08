@@ -29,9 +29,7 @@ android {
 }
 
 dependencies {
-<<<<<<< Updated upstream
 
->>>>>>> Stashed changes
     implementation("com.airbnb.android:lottie:6.0.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.8.0")
