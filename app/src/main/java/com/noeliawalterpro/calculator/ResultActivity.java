@@ -24,7 +24,24 @@ public class ResultActivity extends AppCompatActivity {
         int nro2 = data.getInt("nro2");
         String action = data.getString("action");
 
-        Result.setText( nro1+" "+nro2+" "+ action);
+        switch(action) {
+            case "ADD":
+                int sum = nro1 + nro2;
+                Result.setText( nro1+" + "+nro2+"="+ sum);
+            case "SUBTRACT":
+                int sub = nro1 - nro2;
+                Result.setText( nro1+" - "+nro2+"="+ sub);
+            case "MULTIPLY":
+                int multiply = nro1 * nro2;
+                Result.setText( nro1+" x "+nro2+"="+ multiply);
+            case "DIVISION":
+                int division = nro1 / nro2;
+                Result.setText( nro1+" / "+nro2+"="+ division);
+            case "PERCENTAGE":
+                int percent = nro1 * nro2/100;
+                Result.setText( "%"+nro2+" of "+nro1+"="+ percent);
+
+        }
 
         btnReturn = findViewById(R.id.btn_return);
         btnReturn.setOnClickListener(new View.OnClickListener() {
