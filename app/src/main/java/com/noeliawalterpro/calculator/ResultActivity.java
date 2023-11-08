@@ -24,7 +24,12 @@ public class ResultActivity extends AppCompatActivity {
         int nro2 = data.getInt("nro2");
         String action = data.getString("action");
 
-        Result.setText( nro1+" "+nro2+" "+ action);
+        switch(action) {
+            case "ADD":
+                int sum = nro1 +nro2;
+                Result.setText( nro1+"+"+nro2+"="+ sum);
+
+        }
 
         btnReturn = findViewById(R.id.btn_return);
         btnReturn.setOnClickListener(new View.OnClickListener() {
