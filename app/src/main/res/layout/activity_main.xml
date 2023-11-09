@@ -24,7 +24,7 @@
         android:id="@+id/btn_calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="40dp"
 
         android:text="@string/btn_calculate"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,7 +40,7 @@
         android:layout_marginBottom="20dp"
 
         android:hint="@string/value_a"
-        android:textColor="#0000"
+
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textInput2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,7 +68,7 @@
         android:layout_width="200sp"
         android:layout_height="48dp"
         android:layout_marginBottom="16dp"
-
+        android:textSize="50sp"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/btn_calculate"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,6 +101,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="50dp"
+        android:textSize="25sp"
         android:text="@string/hint"
         app:layout_constraintBottom_toTopOf="@+id/calculatorActions"
         app:layout_constraintEnd_toEndOf="parent"
